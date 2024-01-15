@@ -89,7 +89,7 @@
 
 请注意表格中的规则也有一些例外，这主要是因为着色方程中所使用的符号，在相关文献中已经非常完善且统一了，例如 $L$ 代表辐射度（radiance）， $E$ 代表辐照度（irradiance）， $\sigma_s$ 代表散射系数（scattering coefficient）等。
 
-角度和标量都是取自于$\mathbb{R}$（实数集），即它们都是实数。向量和点使用粗体的小写字母进行表示，其各个分量的表示如下：
+角度和标量都是取自于 $\mathbb{R}$ （实数集），即它们都是实数。向量和点使用粗体的小写字母进行表示，其各个分量的表示如下：
 
 $$
 \mathbf{v} = \left(  \begin{array}{} v_x \\ v_y \\ v_z \end{array} \right)
@@ -98,17 +98,17 @@ $$
 该向量以列向量的形式给出，这种表达形式在计算机图形学中被广泛使用。在本书中的某些地方我们会使用行向量 $(v_x, v_y, v_z)$ 来表示向量或者点，之所以不使用形式更加正确的 $(v_x, v_y, v_z)^T$ ，只是因为前者阅读起来更加容易。
 
 | **类型**                    | **数学标记**             | **例子**                                                                                          |
-| --------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------- | --- | --- |
+| --------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------- |
 | 角度（angle）               | 小写希腊字母             | $\alpha_i, \phi, \rho, \eta, \gamma_{242}, \theta$                                                |
 | 标量（scalar）              | 小写斜体                 | $a, b, t, u_k, v, w_{ij}$                                                                         |
 | 向量，点（vector，point）   | 小写粗体                 | $\mathbf{a}, \mathbf{u}, \mathbf{v}_s, \mathbf{h}(\rho), \mathbf{h}_z$                            |
 | 矩阵（matrix）              | 大写粗体                 | $\mathbf{T(t)}, \mathbf{X}, \mathbf{R}_x(\rho)$                                                   |
-| 平面（plane）               | $\pi$:一个向量和一个标量 | $\pi :\mathbf{n} \cdot \mathbf{x} + d = 0$<br>$\pi_1 :\mathbf{n}\_ 1 \cdot \mathbf{x} + d_1 = 0\$ |     |     |
-| 三角形（triangle）          | $\triangle$+三个顶点     | $\triangle \mathbf{v}_0 \mathbf{v}_1 \mathbf{v}_2, \triangle \mathbf{cba}$                        |
+| 平面（plane）               | $\pi$ :一个向量和一个标量 | $\pi :\mathbf{n} \cdot \mathbf{x} + d = 0$ <br> $\pi_1 :\mathbf{n}\_ 1 \cdot \mathbf{x} + d_1 = 0$ |
+| 三角形（triangle）          | $\triangle$ +三个顶点     | $\triangle \mathbf{v}_0 \mathbf{v}_1 \mathbf{v}_2, \triangle \mathbf{cba}$                        |
 | 线段（line segment）        | 两个顶点                 | $\mathbf{uv}, \mathbf{a}_i \mathbf{b}_j$                                                          |
 | 几何实体（geometry entity） | 大写斜体                 | $A_{OBB}, T, B_{AABB}$                                                                            |
 
-使用齐次（homogeneous）坐标表示法，一个坐标可以使用四个值来进行表示，即 $\mathbf{v} =(v_x \quad v_y \quad v_z \quad v_w)^T$，其中 $\mathbf{v} =(v_x \quad v_y \quad v_z \quad 0)^T$ 代表一个向量， $\mathbf{v} =(v_x \quad v_y \quad v_z \quad 1)^T$ 代表一个点。有时我们会使用只包含三个分量的向量或者点，我们会尽量避免关于使用何种表示类型的歧义。对于矩阵运算而言，使用相同符号形式的点和向量是十分有用的，更多内容详见第 4 章中有关变换的部分。在某些算法中，使用数字索引来代替 $x, y, z$ 下标会很方便，例如 $\mathbf{v} =(v_0 \quad v_1 \quad v_2)^T$ 。所有这些有关向量和点的符号规则，同样也适用于只包含两个分量的向量，在二维向量的情况中，我们会直接跳过向量的第三个分量。
+使用齐次（homogeneous）坐标表示法，一个坐标可以使用四个值来进行表示，即 $\mathbf{v} =(v_x \quad v_y \quad v_z \quad v_w)^T$ ，其中 $\mathbf{v} =(v_x \quad v_y \quad v_z \quad 0)^T$ 代表一个向量， $\mathbf{v} =(v_x \quad v_y \quad v_z \quad 1)^T$ 代表一个点。有时我们会使用只包含三个分量的向量或者点，我们会尽量避免关于使用何种表示类型的歧义。对于矩阵运算而言，使用相同符号形式的点和向量是十分有用的，更多内容详见第 4 章中有关变换的部分。在某些算法中，使用数字索引来代替 $x, y, z$ 下标会很方便，例如 $\mathbf{v} =(v_0 \quad v_1 \quad v_2)^T$ 。所有这些有关向量和点的符号规则，同样也适用于只包含两个分量的向量，在二维向量的情况中，我们会直接跳过向量的第三个分量。
 
 矩阵值得我们多进行一些解释。常用的矩阵尺寸包括 $2 \times 2$ ， $3 \times 3$ ， $4 \times 4$ ，这里我们将以 $3 \times 3$ 矩阵 $\mathbf{M}$ 为例，来回顾矩阵的访问方式，其他尺寸矩阵的操作也类似。矩阵 $\mathbf{M}$ 的（标量）元素记为 $m_{ij}, 0 \le (i, j) \le 2$ ，其中的 $i$ 代表该元素所在的行， $j$ 代表该元素所在的列，如方程 1.1 所示：
 
@@ -121,34 +121,34 @@ m_{10} & m_{11} & m_{12} \\
 \end{array} \right) \tag{1.1}
 $$
 
-方程 1.2 中的符号也代表一个$3 \times 3$矩阵，这种表达形式用于从矩阵$\mathbf{M}$中分离向量：$\mathbf{m}_{,j}$代表第$j$个列向量；$\mathbf{m}_{i,}$代表第$i$个行向量（以列向量形式进行表示）。与向量与点一样，如果使用起来更加方便的话，列向量也可以使用$x, y, z, w$来进行索引：
+方程 1.2 中的符号也代表一个 $3 \times 3$ 矩阵，这种表达形式用于从矩阵 $\mathbf{M}$ 中分离向量： $\mathbf{m}_{,j}$ 代表第 $j$ 个列向量； $\mathbf{m}_{i,}$ 代表第 $i$ 个行向量（以列向量形式进行表示）。与向量与点一样，如果使用起来更加方便的话，列向量也可以使用 $x, y, z, w$ 来进行索引：
 
 $$
 \mathbf{M}=\left(\begin{array}{lll}\mathbf{m}_{, 0} & \mathbf{m}_{, 1} & \mathbf{m}_{, 2}\end{array}\right)=\left(\begin{array}{lll}\mathbf{m}_{x} & \mathbf{m}_{y} & \mathbf{m}_{z}\end{array}\right)=\left(\begin{array}{c}\mathbf{m}_{0,}^{T} \\[2mm] \mathbf{m}_{1,}^{T} \\[2mm] \mathbf{m}_{2,}^{T}\end{array}\right)
 \tag{1.2}
 $$
 
-我们使用$\pi :\mathbf{n} \cdot \mathbf{x} + d = 0$来表示一个平面，它包含了定义平面所需的数学公式，即平面的法线$\mathbf{n}$以及标量$d$。其中平面法线是一个描述平面朝向的向量，对于更一般的表面（例如曲面），法线描述了表面上某个特定点的朝向；而对于平面而言，平面上所有点都具有相同的法线。$\pi$通常被用作为代表平面的数学符号，平面$\pi$会将空间一分为二，其中位于正半空间中的点满足$\mathbf{n} \cdot \mathbf{x} + d > 0$；位于负半空间中的点满足$\mathbf{n} \cdot \mathbf{x} + d < 0$。剩下所有的点都位于平面$\pi$上。
+我们使用 $\pi :\mathbf{n} \cdot \mathbf{x} + d = 0$ 来表示一个平面，它包含了定义平面所需的数学公式，即平面的法线 $\mathbf{n}$ 以及标量 $d$ 。其中平面法线是一个描述平面朝向的向量，对于更一般的表面（例如曲面），法线描述了表面上某个特定点的朝向；而对于平面而言，平面上所有点都具有相同的法线。 $\pi$ 通常被用作为代表平面的数学符号，平面 $\pi$ 会将空间一分为二，其中位于正半空间中的点满足 $\mathbf{n} \cdot \mathbf{x} + d > 0$ ；位于负半空间中的点满足 $\mathbf{n} \cdot \mathbf{x} + d < 0$ 。剩下所有的点都位于平面 $\pi$ 上。
 
-一个三角形可以使用三个顶点$\mathbf{v}_0, \mathbf{v}_1, \mathbf{v}_2$来进行定义，记为$\triangle \mathbf{v}_0 \mathbf{v}_1 \mathbf{v}_2$。
+一个三角形可以使用三个顶点 $\mathbf{v}_0, \mathbf{v}_1, \mathbf{v}_2$ 来进行定义，记为 $\triangle \mathbf{v}_0 \mathbf{v}_1 \mathbf{v}_2$ 。
 
-表 1.2 展示了其他的一些数学运算符及其符号表示，你可以在配套网站[realtimerendering.com](http://realtimerendering.com/ 'realtimerendering.com')上找到线性代数附录，其中包含了点乘、叉乘、行列式以及模长操作符的相关解释。转置操作符可以将一个列向量转换为一个行向量，反之亦然，这样我们就可以将一个列向量写在一行中，例如$\mathbf{v} = (v_x \quad v_y \quad v_z)^T$。表中的第四个操作符在《_Graphics Gems IV_》\[735]中有详细介绍，这是一个作用于二维向量的一元操作符，它作用于向量$\mathbf{v} = (v_x \quad v_y)^T$上，并会生成一个与其垂直的向量，例如$\mathbf{v}^\perp = （-v_y \quad v_x）^T$。
+表 1.2 展示了其他的一些数学运算符及其符号表示，你可以在配套网站[realtimerendering.com](http://realtimerendering.com/ 'realtimerendering.com')上找到线性代数附录，其中包含了点乘、叉乘、行列式以及模长操作符的相关解释。转置操作符可以将一个列向量转换为一个行向量，反之亦然，这样我们就可以将一个列向量写在一行中，例如 $\mathbf{v} = (v_x \quad v_y \quad v_z)^T$ 。表中的第四个操作符在《_Graphics Gems IV_》\[735]中有详细介绍，这是一个作用于二维向量的一元操作符，它作用于向量 $\mathbf{v} = (v_x \quad v_y)^T$ 上，并会生成一个与其垂直的向量，例如 $\mathbf{v}^\perp = （-v_y \quad v_x）^T$ 。
 
 | **序号** | **数学标记**        | **说明**                   |
 | -------- | ------------------- | -------------------------- |
 | 1        | $\cdot$             | 点乘                       |
 | 2        | $\times$            | 叉乘                       |
-| 3        | $\mathbf{v}^T$      | 向量$\mathbf{v}$的转置     |
+| 3        | $\mathbf{v}^T$      | 向量 $\mathbf{v}$ 的转置     |
 | 4        | $^\perp$            | 一元操作符，垂直点乘操作符 |
 | 5        | $\vert \cdot \vert$ | 矩阵的行列式               |
 | 6        | $\vert \cdot \vert$ | 标量的绝对值               |
 | 7        | $\Vert \cdot \Vert$ | 范数（长度和模长）         |
 | 8        | $x^+$               | 将 x 的最小值限制在 0      |
-| 9        | $x^\mp$             | 将$x$限制在 0 到 1 之间    |
+| 9        | $x^\mp$             | 将 $x$ 限制在 0 到 1 之间    |
 | 10       | $n!$                | 阶乘                       |
 | 11       | $\binom{n}{k}$      | 二项式系数                 |
 
-我们使用$\vert a \vert$来表示标量$a$的绝对值，使用$\vert \mathbf{A} \vert$来表示矩阵$ \mathbf{A} $的行列式。有时我们还会使用$\vert \mathbf{A} \vert = \vert \mathbf{a \quad b \quad c} \vert = \det(\mathbf{a,b,c})$这种表示方式，其中$\mathbf{a,b,c}$分别是矩阵$\mathbf{A}$的列向量。
+我们使用 $\vert a \vert$ 来表示标量 $a$ 的绝对值，使用 $\vert \mathbf{A} \vert$ 来表示矩阵 $\mathbf{A}$ 的行列式。有时我们还会使用 $\vert \mathbf{A} \vert = \vert \mathbf{a \quad b \quad c} \vert = \det(\mathbf{a,b,c})$ 这种表示方式，其中 $\mathbf{a,b,c}$ 分别是矩阵 $\mathbf{A}$ 的列向量。
 
 第 8 和第 9 个操作符是限制操作符（clamp），它在着色计算中经常使用。操作符 8 会将输入值的负数部分限制到 0：
 
@@ -175,7 +175,7 @@ x, & 0 < x < 1, \\
 \tag{1.4}
 $$
 
-操作符 10 是阶乘（factorial）操作符，其定义如下所示，请注意$0! = 1:$
+操作符 10 是阶乘（factorial）操作符，其定义如下所示，请注意 $0! = 1:$
 
 $$
 n! = n(n-1)(n-2) \cdots 3 \cdot 2 \cdot 1 \tag{1.5}
@@ -188,22 +188,22 @@ $$
 \frac{n!}{k! (n-k)!} \tag{1.6}
 $$
 
-除此之外，我们一般将$x = 0$，$y = 0$，$z = 0$这三个平面叫做坐标平面（coordinate planes）或者轴对齐平面（axis-aligned planes）。将$\mathbf{e}_x = \left( \begin{array}{} 1 & 0 & 0  \end{array} \right)^T,
+除此之外，我们一般将 $x = 0$ ， $y = 0$ ， $z = 0$ 这三个平面叫做坐标平面（coordinate planes）或者轴对齐平面（axis-aligned planes）。将 $\mathbf{e}_x = \left( \begin{array}{} 1 & 0 & 0  \end{array} \right)^T,
 \mathbf{e}_y = \left( \begin{array}{} 0 & 1 & 0  \end{array} \right)^T,
-\mathbf{e}_z = \left( \begin{array}{} 0 & 0 & 1  \end{array} \right)^T$叫做主轴（main axes）或者主方向（main direction）；或者分别叫做$x$轴，$y$轴和$z$轴。这组向量通常也会被称为标准基（standard basis）。除了特殊说明之外，我们将会使用标准正交基（即由相互垂直的单位向量所组成的基底）。
+\mathbf{e}_z = \left( \begin{array}{} 0 & 0 & 1  \end{array} \right)^T$ 叫做主轴（main axes）或者主方向（main direction）；或者分别叫做 $x$ 轴， $y$ 轴和 $z$ 轴。这组向量通常也会被称为标准基（standard basis）。除了特殊说明之外，我们将会使用标准正交基（即由相互垂直的单位向量所组成的基底）。
 
-我们将同时包含$a,b$，以及两者之间所有数字的范围区间记为$[a,b]$。如果我们只想要$ a,b $之间的数字，而不想要$a,b$本身的话，那么我们可以将其记为$(a, b)$。我们也可以将开闭区间进行组合使用，例如：$[a,b)$代表包括$a$在内，但是不包括$b$在内的，$a,b$之间的所有数字。
+我们将同时包含 $a,b$ ，以及两者之间所有数字的范围区间记为 $[a,b]$ 。如果我们只想要 $a,b$ 之间的数字，而不想要 $a,b$ 本身的话，那么我们可以将其记为 $(a, b)$ 。我们也可以将开闭区间进行组合使用，例如： $[a,b)$ 代表包括 $a$ 在内，但是不包括 $b$ 在内的， $a,b$ 之间的所有数字。
 
 | 序号 | 函数                   | 描述           |
 | ---- | ---------------------- | -------------- |
 | 1    | $\mathsf{atan2}(y, x)$ | 二元反正切函数 |
-| 2    | $\log(n)$              | $n$的自然对数  |
+| 2    | $\log(n)$              | $n$ 的自然对数  |
 
-$\mathsf{atan2}(y, x)$是一个 C 语言中的数学函数，它在本文中经常使用，因此值得我们去关注一下。它是数学函数$\arctan(x)$的一个拓展，它俩的主要区别在于$ -\frac{\pi}{2} < \arctan(x) < \frac{\pi}{2} $，而$ -\pi \le \mathsf{atan2}(y, x) \le \pi $；并且后者包含一个额外的参数输入。这个函数的常见应用是用来计算$\arctan(y/x)$，当$x = 0$时，分母就为 0 了。而拥有两个参数的$\mathsf{atan2}(y, x)$则可以避免这一点。
+ $\mathsf{atan2}(y, x)$ 是一个 C 语言中的数学函数，它在本文中经常使用，因此值得我们去关注一下。它是数学函数 $\arctan(x)$ 的一个拓展，它俩的主要区别在于 $-\frac{\pi}{2} < \arctan(x) < \frac{\pi}{2}$ ，而 $-\pi \le \mathsf{atan2}(y, x) \le \pi$ ；并且后者包含一个额外的参数输入。这个函数的常见应用是用来计算 $\arctan(y/x)$ ，当 $x = 0$ 时，分母就为 0 了。而拥有两个参数的 $\mathsf{atan2}(y, x)$ 则可以避免这一点。
 
-在本书中， $\log(n)$始终代表了自然对数，即$\log_e(n)$，而不是以 10 为底的对数$\log_{10}(n)$。
+在本书中， $\log(n)$ 始终代表了自然对数，即 $\log_e(n)$ ，而不是以 10 为底的对数 $\log_{10}(n)$ 。
 
-颜色使用一个三维向量来进行表示，例如$(red,green,blue)$，其中每个分量的范围都是$[0,1]$。
+颜色使用一个三维向量来进行表示，例如 $(red,green,blue)$ ，其中每个分量的范围都是 $[0,1]$ 。
 
 ### 1.2.2 几何定义
 
