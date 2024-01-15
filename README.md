@@ -30,7 +30,7 @@
 
 （下文来自毛星云的自序，共勉）
 
-> All our dreams can come true, if we have thecourage to pursue them.
+> All our dreams can come true, if we have the courage to pursue them.
 
 > 沃尔特·迪斯尼——我们所有的梦想都可以成真，只要我们有勇气去追求它们。&#x20;
 
