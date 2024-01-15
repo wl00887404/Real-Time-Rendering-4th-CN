@@ -2,37 +2,37 @@
 
 ## 目录
 
--   [实时渲染第四版](#实时渲染第四版)
-    -   [关于本书](#关于本书)
-    -   [相关链接](#相关链接)
-    -   [序言](#序言)
-    -   [目录](#目录)
-        -   [Chapter 1 Introduction 简介](#Chapter-1-Introduction-简介)
-        -   [Chapter 2 The Graphics Rendering Pipeline 图形渲染管线](#Chapter-2-The-Graphics-Rendering-Pipeline-图形渲染管线)
-        -   [Chapter 3 The Graphics Processing Unit 图形处理单元](#Chapter-3-The-Graphics-Processing-Unit-图形处理单元)
-        -   [Chapter 4 Transform 变换](#Chapter-4-Transform-变换)
-        -   [Chapter 5 Shading Basics 着色基础](#Chapter-5-Shading-Basics-着色基础)
-        -   [Chapter 6 Texturing 纹理](#Chapter-6-Texturing-纹理)
-        -   [Chapter 7 Shadows 阴影](#Chapter-7-Shadows-阴影)
-        -   [Chapter 8 Light and Color 光与颜色](#Chapter-8-Light-and-Color-光与颜色)
-        -   [Chapter 9 Physically Based Shading 基于物理的着色](#Chapter-9-Physically-Based-Shading-基于物理的着色)
-        -   [Chapter 10 Local Illumination 局部光照](#Chapter-10-Local-Illumination-局部光照)
-        -   [Chapter 11 Global Illumination 全局光照](#Chapter-11-Global-Illumination-全局光照)
-        -   [Chapter 12 ImageSpace Effects 图像空间特效](#Chapter-12-ImageSpace-Effects-图像空间特效)
-        -   [Chapter 13 Beyond Polygons 超越多边形](#Chapter-13-Beyond-Polygons-超越多边形)
-        -   [Chapter 14 Volumetric and Translucency Rendering 体积与半透明渲染](#Chapter-14-Volumetric-and-Translucency-Rendering-体积与半透明渲染)
-        -   [Chapter 15 NonPhotorealistic Rendering 非真实感渲染](#Chapter-15-NonPhotorealistic-Rendering-非真实感渲染)
-        -   [Chapter 16 Polygonal Techniques 多边形技术](#Chapter-16-Polygonal-Techniques-多边形技术)
-        -   [Chapter 17 Curves and Curved Surfaces 曲线和曲面](#Chapter-17-Curves-and-Curved-Surfaces-曲线和曲面)
-        -   [Chapter 18 Pipeline Optimization 管线优化](#Chapter-18-Pipeline-Optimization-管线优化)
-        -   [Chapter 19 Acceleration Algorithms 加速算法](#Chapter-19-Acceleration-Algorithms-加速算法)
-        -   [Chapter 20 Efficient Shading 高效着色](#Chapter-20-Efficient-Shading-高效着色)
-        -   [Chapter 21 Virtual and Augmented Reality 虚拟现实和增强现实](#Chapter-21-Virtual-and-Augmented-Reality-虚拟现实和增强现实)
-        -   [Chapter 22 Intersection Test Methods 相交测试方法](#Chapter-22-Intersection-Test-Methods-相交测试方法)
-        -   [Chapter 23 Graphics Hardware 图形硬件](#Chapter-23-Graphics-Hardware-图形硬件)
-        -   [Chapter 24 The Future 未来](#Chapter-24-The-Future-未来)
-        -   [Chapter 25 Collision Detection 碰撞检测](#Chapter-25-Collision-Detection-碰撞检测)
-        -   [Chapter 26 RealTime Ray Tracing 实时光线追踪](#Chapter-26-RealTime-Ray-Tracing-实时光线追踪)
+- [实时渲染第四版](#实时渲染第四版)
+  - [关于本书](#关于本书)
+  - [相关链接](#相关链接)
+  - [序言](#序言)
+  - [目录](#目录)
+    - [Chapter 1 Introduction 简介](#Chapter-1-Introduction-简介)
+    - [Chapter 2 The Graphics Rendering Pipeline 图形渲染管线](#Chapter-2-The-Graphics-Rendering-Pipeline-图形渲染管线)
+    - [Chapter 3 The Graphics Processing Unit 图形处理单元](#Chapter-3-The-Graphics-Processing-Unit-图形处理单元)
+    - [Chapter 4 Transform 变换](#Chapter-4-Transform-变换)
+    - [Chapter 5 Shading Basics 着色基础](#Chapter-5-Shading-Basics-着色基础)
+    - [Chapter 6 Texturing 纹理](#Chapter-6-Texturing-纹理)
+    - [Chapter 7 Shadows 阴影](#Chapter-7-Shadows-阴影)
+    - [Chapter 8 Light and Color 光与颜色](#Chapter-8-Light-and-Color-光与颜色)
+    - [Chapter 9 Physically Based Shading 基于物理的着色](#Chapter-9-Physically-Based-Shading-基于物理的着色)
+    - [Chapter 10 Local Illumination 局部光照](#Chapter-10-Local-Illumination-局部光照)
+    - [Chapter 11 Global Illumination 全局光照](#Chapter-11-Global-Illumination-全局光照)
+    - [Chapter 12 ImageSpace Effects 图像空间特效](#Chapter-12-ImageSpace-Effects-图像空间特效)
+    - [Chapter 13 Beyond Polygons 超越多边形](#Chapter-13-Beyond-Polygons-超越多边形)
+    - [Chapter 14 Volumetric and Translucency Rendering 体积与半透明渲染](#Chapter-14-Volumetric-and-Translucency-Rendering-体积与半透明渲染)
+    - [Chapter 15 NonPhotorealistic Rendering 非真实感渲染](#Chapter-15-NonPhotorealistic-Rendering-非真实感渲染)
+    - [Chapter 16 Polygonal Techniques 多边形技术](#Chapter-16-Polygonal-Techniques-多边形技术)
+    - [Chapter 17 Curves and Curved Surfaces 曲线和曲面](#Chapter-17-Curves-and-Curved-Surfaces-曲线和曲面)
+    - [Chapter 18 Pipeline Optimization 管线优化](#Chapter-18-Pipeline-Optimization-管线优化)
+    - [Chapter 19 Acceleration Algorithms 加速算法](#Chapter-19-Acceleration-Algorithms-加速算法)
+    - [Chapter 20 Efficient Shading 高效着色](#Chapter-20-Efficient-Shading-高效着色)
+    - [Chapter 21 Virtual and Augmented Reality 虚拟现实和增强现实](#Chapter-21-Virtual-and-Augmented-Reality-虚拟现实和增强现实)
+    - [Chapter 22 Intersection Test Methods 相交测试方法](#Chapter-22-Intersection-Test-Methods-相交测试方法)
+    - [Chapter 23 Graphics Hardware 图形硬件](#Chapter-23-Graphics-Hardware-图形硬件)
+    - [Chapter 24 The Future 未来](#Chapter-24-The-Future-未来)
+    - [Chapter 25 Collision Detection 碰撞检测](#Chapter-25-Collision-Detection-碰撞检测)
+    - [Chapter 26 RealTime Ray Tracing 实时光线追踪](#Chapter-26-RealTime-Ray-Tracing-实时光线追踪)
 
 # 实时渲染第四版
 
@@ -48,17 +48,17 @@
 
 时间：2023.11.20
 
-内容简介：本翻译版涵盖了RTR4中的第1章-第26章中的内容。附录内容详见在线网站，参考文献目录详见参考文献网站和参考文献合集，已涵盖勘误内容（截止到2023.10.30）。由于本人才疏学浅，翻译难免有误，望各位不吝惜指正。本翻译仅供交流学习，如有侵权，请联系删除。
+内容简介：本翻译版涵盖了 RTR4 中的第 1 章 - 第 26 章中的内容。附录内容详见在线网站，参考文献目录详见参考文献网站和参考文献合集，已涵盖勘误内容（截止到 2023.10.30）。由于本人才疏学浅，翻译难免有误，望各位不吝惜指正。本翻译仅供交流学习，如有侵权，请联系删除。
 
 ## 相关链接
 
--   源文件仓库：[https://github.com/Morakito/Real-Time-Rendering-4th-CN](https://github.com/Morakito/Real-Time-Rendering-4th-CN "https://github.com/Morakito/Real-Time-Rendering-4th-CN")
--   B站视频：[https://www.bilibili.com/video/BV1UM411Z7g1](https://www.bilibili.com/video/BV1UM411Z7g1 "https://www.bilibili.com/video/BV1UM411Z7g1")
--   在线网站：[https://www.realtimerendering.com](https://www.realtimerendering.com/ "https://www.realtimerendering.com")
--   勘误网站：[https://www.realtimerendering.com/corrigenda.html](https://www.realtimerendering.com/corrigenda.html "https://www.realtimerendering.com/corrigenda.html")
--   参考文件网站：[https://www.realtimerendering.com/refs.html](https://www.realtimerendering.com/refs.html "https://www.realtimerendering.com/refs.html")
--   参考文献合集仓库：[https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection](https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection "https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection")
--   wolai文件：[https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W](https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W "https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W")
+- 源文件仓库：[https://github.com/Morakito/Real-Time-Rendering-4th-CN](https://github.com/Morakito/Real-Time-Rendering-4th-CN 'https://github.com/Morakito/Real-Time-Rendering-4th-CN')
+- B 站视频：[https://www.bilibili.com/video/BV1UM411Z7g1](https://www.bilibili.com/video/BV1UM411Z7g1 'https://www.bilibili.com/video/BV1UM411Z7g1')
+- 在线网站：[https://www.realtimerendering.com](https://www.realtimerendering.com/ 'https://www.realtimerendering.com')
+- 勘误网站：[https://www.realtimerendering.com/corrigenda.html](https://www.realtimerendering.com/corrigenda.html 'https://www.realtimerendering.com/corrigenda.html')
+- 参考文件网站：[https://www.realtimerendering.com/refs.html](https://www.realtimerendering.com/refs.html 'https://www.realtimerendering.com/refs.html')
+- 参考文献合集仓库：[https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection](https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection 'https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection')
+- wolai 文件：[https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W](https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W 'https://www.wolai.com/fkGSwxLu2pjWD7kiBY1V7W')
 
 ## 序言
 
@@ -68,7 +68,7 @@
 
 > 沃尔特·迪斯尼——我们所有的梦想都可以成真，只要我们有勇气去追求它们。&#x20;
 
-依稀记得那还是F4红遍大街小巷，满城都飘扬着《流星雨》的年代。
+依稀记得那还是 F4 红遍大街小巷，满城都飘扬着《流星雨》的年代。
 
 那个时候的电子游戏，无论是投币式的街机游戏，还是网吧里的《反恐精英》、《流星蝴蝶剑》、《仙剑奇侠传》、《星际争霸》、《帝国时代》等引领时代的游戏界的璀璨明珠，总能深深地吸引住每个纯真无邪孩童的心，绚烂的游戏画面总是让孩童们流连忘返。
 
@@ -76,21 +76,21 @@
 
 还记得那个香樟树覆盖的夏天，年幼无知的我在一帮同学中吹牛说：我长大后，一定要自己开发出比这些还牛还要好玩的游戏。
 
-现在想想，这几年走过的路途，真应了那句话，“现在的努力，都是为了小时候吹过的牛逼”。
+现在想想，这几年走过的路途，真应了那句话，「现在的努力，都是为了小时候吹过的牛逼」。
 
-这些年来，在学习游戏编程的道路上有过惊喜，有过坎坷，有过自豪，有过怅惘，走了不少弯路，也算是最终走上了正途，小有所成。于是，我单曲循环着五月天的《有些事情现在不做一辈子都不会做了》，打开Word，打开Visual Studio，把自己这么多年来的游戏开发经验和心得用文字凝聚起来，开始为大家写这本书。
+这些年来，在学习游戏编程的道路上有过惊喜，有过坎坷，有过自豪，有过怅惘，走了不少弯路，也算是最终走上了正途，小有所成。于是，我单曲循环着五月天的《有些事情现在不做一辈子都不会做了》，打开 Word，打开 Visual Studio，把自己这么多年来的游戏开发经验和心得用文字凝聚起来，开始为大家写这本书。
 
 而这么一写，就是一整年。
 
-经过一年夙兴夜寐，终于，赶在22岁生日之前，近百万字的书稿随着一声响指而初具雏形。
+经过一年夙兴夜寐，终于，赶在 22 岁生日之前，近百万字的书稿随着一声响指而初具雏形。
 
-“谨以此书献给父母，因养育之恩无以回报。谨以此书献给母校南京航空航天大学和乌克兰国立航空航天大学，因赐予我一颗不甘平庸、上下求索的心。谨以此书献给所有怀揣游戏开发梦想的人们，因为，你们不是一个人在战斗。”
+「谨以此书献给父母，因养育之恩无以回报。谨以此书献给母校南京航空航天大学和乌克兰国立航空航天大学，因赐予我一颗不甘平庸、上下求索的心。谨以此书献给所有怀揣游戏开发梦想的人们，因为，你们不是一个人在战斗。」
 
-当在书稿的开头写下这三个“谨以”的时候，我终于开始觉得，这一年的夜以继日，这一年的披星戴月，都是值得的。
+当在书稿的开头写下这三个「谨以」的时候，我终于开始觉得，这一年的夜以继日，这一年的披星戴月，都是值得的。
 
 然而，因为岁月积累的关系，这本书中渗透的编程思想或许不能和编程界中的泰斗们同日而语。但是，我可以捂着胸口问心无愧地说，我把这些年自己悟出来的关于游戏编程的学习方法和真知灼见，毫无保留地呈现给了大家。大家能看到的眼前的这些句子和代码，全都是经过一遍又一遍的深思熟虑，一遍又一遍的修改，然后小心谨慎地敲出来的。
 
-详细研究过游戏编程的朋友们都应该有这样的共识：“中国人写的书水平上不去，外国人写的书水平有了，但是翻译得往往都强差人意，理解不了”。也许正是这个原因，国内游戏编程的入门门槛一直很高，DirectX一直被人们认为是很难学的。很多怀揣游戏开发梦想的热血青年们，信誓旦旦地开始着手学习游戏编程的时候，却被晦涩难懂的游戏编程教材拒之梦想门外，碰了一鼻子灰，从此和最初的梦想失之交臂。我想，这正是导致国产游戏业界的萎靡，国产游戏一直很难成长起来的原因之一。
+详细研究过游戏编程的朋友们都应该有这样的共识：「中国人写的书水平上不去，外国人写的书水平有了，但是翻译得往往都强差人意，理解不了」。也许正是这个原因，国内游戏编程的入门门槛一直很高，DirectX 一直被人们认为是很难学的。很多怀揣游戏开发梦想的热血青年们，信誓旦旦地开始着手学习游戏编程的时候，却被晦涩难懂的游戏编程教材拒之梦想门外，碰了一鼻子灰，从此和最初的梦想失之交臂。我想，这正是导致国产游戏业界的萎靡，国产游戏一直很难成长起来的原因之一。
 
 在这样的环境的激励下，这本倾注我一年多心血的书出现了，它的创作初衷便是渴望能够改变这样的现状。
 
@@ -100,11 +100,11 @@
 
 我有一个梦想，将来的某一天，大家都能玩到蕴含着中国上下五千年本土文化的优质游戏大作。
 
-我有一个梦想，有一天，西游记能出ACT，让老外去体会中国文化西游记中”斗战胜佛”的打击快感，那一定比西方的动作巅峰之作《战神》、《鬼泣》更加深邃。
+我有一个梦想，有一天，西游记能出 ACT，让老外去体会中国文化西游记中」斗战胜佛」的打击快感，那一定比西方的动作巅峰之作《战神》、《鬼泣》更加深邃。
 
-我有一个梦想，有一天，上海滩能出沙盒游戏，而不是玩《GTA》感受美国梦，亦或是玩着《热血无赖》体验国外公司强行塞给我们的“中国文化”。
+我有一个梦想，有一天，上海滩能出沙盒游戏，而不是玩《GTA》感受美国梦，亦或是玩着《热血无赖》体验国外公司强行塞给我们的「中国文化」。
 
-我有一个梦想，有一天，不少3A大作不需要汉化，因为是我们自己的游戏，配音是中文，文化也是中国的。
+我有一个梦想，有一天，不少 3A 大作不需要汉化，因为是我们自己的游戏，配音是中文，文化也是中国的。
 
 我有一个梦想，将来的某一天，国产游戏能像中国的其他产业一样，以一个领跑者的姿态，面对全世界，面对全宇宙，器宇轩昂，扬眉吐气。
 
@@ -112,7 +112,7 @@
 
 我等着我们的好消息。
 
-浅墨 2013年5月于乌克兰
+浅墨 2013 年 5 月于乌克兰
 
 希望我们可以一起努力，翻过那座山。
 
@@ -178,7 +178,7 @@
 
 3.3 可编程着色器阶段
 
-3.4 可编程着色及其API的演变
+3.4 可编程着色及其 API 的演变
 
 3.5 顶点着色器
 
@@ -196,7 +196,7 @@
 
 #### Chapter 4 Transform 变换
 
-4.1基本变换
+4.1 基本变换
 
 4.1.1 平移
 
@@ -284,7 +284,7 @@
 
 5.4 锯齿和抗锯齿
 
-5.4.1  采样和滤波理论
+5.4.1   采样和滤波理论
 
 重建
 
@@ -302,7 +302,7 @@
 
 5.5.2 顺序无关的透明度算法
 
-5.3.3 Alpha预乘与合成
+5.3.3 Alpha 预乘与合成
 
 5.6 显示编码
 
@@ -324,7 +324,7 @@
 
 Mipmap
 
-SummedArea表（SAT）
+SummedArea 表（SAT）
 
 无约束的各向异性过滤
 
@@ -332,9 +332,9 @@ SummedArea表（SAT）
 
 6.2.4 立方体贴图
 
-6.2.5纹理表示
+6.2.5 纹理表示
 
-6.2.6纹理压缩
+6.2.6 纹理压缩
 
 6.3 程序化纹理
 
@@ -342,11 +342,11 @@ SummedArea表（SAT）
 
 6.5 材质映射
 
-6.6 Alpha映射
+6.6 Alpha 映射
 
 6.7 凹凸映射
 
-6.7.1 Blinn方法
+6.7.1 Blinn 方法
 
 6.7.2 法线映射
 
@@ -360,7 +360,7 @@ SummedArea表（SAT）
 
 7.1 平面阴影
 
-7.1.1投影阴影
+7.1.1 投影阴影
 
 7.1.2 软阴影
 
@@ -380,7 +380,7 @@ SummedArea表（SAT）
 
 7.8 体积阴影技术
 
-7.9 不规则zbuffer
+7.9 不规则 zbuffer
 
 7.10 其他应用
 
@@ -394,11 +394,11 @@ SummedArea表（SAT）
 
 8.1.3 色度学
 
-8.1.4 使用RGB颜色进行渲染
+8.1.4 使用 RGB 颜色进行渲染
 
 8.2 从场景到屏幕
 
-8.2.1 HDR显示编码
+8.2.1 HDR 显示编码
 
 8.2.2 色调映射
 
@@ -448,7 +448,7 @@ SummedArea表（SAT）
 
 9.7 微表面理论
 
-9.8 表面反射的BRDF模型
+9.8 表面反射的 BRDF 模型
 
 9.8.1 法线分布函数
 
@@ -458,7 +458,7 @@ SummedArea表（SAT）
 
 9.8.2 多次反弹的表面反射
 
-9.9 次表面散射的BRDF模型
+9.9 次表面散射的 BRDF 模型
 
 9.9.1 次表面反照率
 
@@ -468,7 +468,7 @@ SummedArea表（SAT）
 
 9.9.4 粗糙表面的次表面模型
 
-9.10 布料的BRDF模型
+9.10 布料的 BRDF 模型
 
 9.10.1 经验布料模型
 
@@ -476,7 +476,7 @@ SummedArea表（SAT）
 
 9.10.3 微圆柱体布料模型
 
-9.11波动光学的BRDF模型
+9.11 波动光学的 BRDF 模型
 
 9.11.1 衍射模型
 
@@ -486,7 +486,7 @@ SummedArea表（SAT）
 
 9.13 混合和过滤材质
 
-9.13.1过滤法线与法线分布
+9.13.1 过滤法线与法线分布
 
 #### Chapter 10 Local Illumination 局部光照
 
@@ -500,7 +500,7 @@ SummedArea表（SAT）
 
 10.3 球面函数和半球函数
 
-10.3.1简单表格形式
+10.3.1 简单表格形式
 
 10.3.2 球面基底
 
@@ -514,9 +514,9 @@ SummedArea表（SAT）
 
 10.3.3 半球基底
 
-AHD基底
+AHD 基底
 
-辐射法向映射/《半条命2 》基底
+辐射法向映射/《半条命 2》基底
 
 半球谐波/HBasis
 
@@ -536,13 +536,13 @@ AHD基底
 
 卷积环境贴图
 
-10.5.2 微表面BRDF的分裂积分近似
+10.5.2 微表面 BRDF 的分裂积分近似
 
 10.5.3 不对称和各向异性波瓣
 
-10.6 irradiance环境映射
+10.6 irradiance 环境映射
 
-10.6.1 球谐irradiance
+10.6.1 球谐 irradiance
 
 10.6.2 其他表示方法
 
@@ -562,7 +562,7 @@ AHD基底
 
 11.3.1 环境光遮蔽理论
 
-11.3.2 可见性和obscurance
+11.3.2 可见性和 obscurance
 
 11.3.3 考虑相互反射
 
@@ -640,7 +640,7 @@ AHD基底
 
 13.4 光场渲染
 
-13.5 Sprite和图层
+13.5 Sprite 和图层
 
 13.6 广告牌技术
 
@@ -744,7 +744,7 @@ AHD基底
 
 14.7 毛发和皮毛
 
-14.7.1 几何和Alpha
+14.7.1 几何和 Alpha
 
 14.7.2 毛发
 
@@ -758,13 +758,13 @@ AHD基底
 
 15.2 轮廓渲染
 
-15.2.1 基于法线的contour边缘着色
+15.2.1 基于法线的 contour 边缘着色
 
-15.2.2 程序化的几何Silhouette
+15.2.2 程序化的几何 Silhouette
 
 15.2.3 基于图像处理的边缘检测
 
-15.2.4 几何contour边缘检测
+15.2.4 几何 contour 边缘检测
 
 15.2.5 隐藏线移除
 
@@ -772,7 +772,7 @@ AHD基底
 
 15.4 线条
 
-15.4.1渲染三角形边缘
+15.4.1 渲染三角形边缘
 
 15.4.2 渲染遮挡线条
 
@@ -788,7 +788,7 @@ AHD基底
 
 16.2.1 着色问题
 
-16.2.2 边界开裂和T顶点
+16.2.2 边界开裂和 T 顶点
 
 16.3 整合
 
@@ -822,37 +822,37 @@ AHD基底
 
 17.1 参数化曲线
 
-17.1.1 Bezier曲线
+17.1.1 Bezier 曲线
 
-使用Bernstein多项式的Bezier曲线
+使用 Bernstein 多项式的 Bezier 曲线
 
-有理Bezier曲线
+有理 Bezier 曲线
 
-17.1.2 GPU上的有界Bezier曲线
+17.1.2 GPU 上的有界 Bezier 曲线
 
-17.1.3 曲线的连续性与分段Bezier曲线
+17.1.3 曲线的连续性与分段 Bezier 曲线
 
-17.1.4 三次Hermite插值
+17.1.4 三次 Hermite 插值
 
-17.1.5 KochanekBartels曲线
+17.1.5 KochanekBartels 曲线
 
-17.1.6 B样条
+17.1.6 B 样条
 
 17.2 参数化曲面
 
-17.2.1 Bezier面片
+17.2.1 Bezier 面片
 
-有理Bezier面片
+有理 Bezier 面片
 
-17.2.2 Bezier三角形
+17.2.2 Bezier 三角形
 
 17.2.3 连续性
 
-17.2.4 PN三角形
+17.2.4 PN 三角形
 
-17.2.5  Phong曲面细分
+17.2.5  Phong 曲面细分
 
-17.2.6 B样条曲面
+17.2.6 B 样条曲面
 
 17.3 隐式表面
 
@@ -860,31 +860,31 @@ AHD基底
 
 17.5 细分表面
 
-17.5.1 Loop细分
+17.5.1 Loop 细分
 
-17.5.2 CatmullClark细分
+17.5.2 CatmullClark 细分
 
 17.5.3 分段平滑细分
 
-17.5.4 位移（Displaced ）细分
+17.5.4 位移（Displaced）细分
 
 17.5.5 法线、纹理和颜色插值
 
 17.6 高效曲面细分
 
-17.6.1分数曲面细分
+17.6.1 分数曲面细分
 
-17.6.2自适应曲面细分
+17.6.2 自适应曲面细分
 
 终止自适应曲面细分
 
 分割和骰子方法
 
-17.6.3 快速CatmullClark曲面细分
+17.6.3 快速 CatmullClark 曲面细分
 
 近似方法
 
-特征自适应细分和OpenSubdiv
+特征自适应细分和 OpenSubdiv
 
 自适应四叉树
 
@@ -898,9 +898,9 @@ AHD基底
 
 18.2.2 几何处理阶段测试
 
-18.2.3光栅化阶段测试
+18.2.3 光栅化阶段测试
 
-18.2.4像素处理阶段测试
+18.2.4 像素处理阶段测试
 
 18.2.5 合并阶段测试
 
@@ -912,7 +912,7 @@ AHD基底
 
 内存问题
 
-18.4.2 API调用
+18.4.2 API 调用
 
 状态改变
 
@@ -936,7 +936,7 @@ AHD基底
 
 18.5.3 基于任务的多处理
 
-18.5.4 图形API的多处理支持
+18.5.4 图形 API 的多处理支持
 
 #### Chapter 19 Acceleration Algorithms 加速算法
 
@@ -944,11 +944,11 @@ AHD基底
 
 19.1.1 层次包围体
 
-19.1.2  BSP树
+19.1.2  BSP 树
 
-轴对齐的BSP树（kD树）
+轴对齐的 BSP 树（kD 树）
 
-多边形对齐的BSP树
+多边形对齐的 BSP 树
 
 19.1.3 八叉树
 
@@ -970,23 +970,23 @@ AHD基底
 
 19.7.1 遮挡查询
 
-19.7.2 层次Z缓冲
+19.7.2 层次 Z 缓冲
 
 19.8 剔除系统
 
 19.9 LOD
 
-19.1.1 LOD切换
+19.1.1 LOD 切换
 
-离散几何LOD
+离散几何 LOD
 
-混合LOD
+混合 LOD
 
 Alpha LOD
 
-CLOD和地貌LOD
+CLOD 和地貌 LOD
 
-19.9.2 LOD选择
+19.9.2 LOD 选择
 
 基于范围
 
@@ -994,7 +994,7 @@ CLOD和地貌LOD
 
 其他选择方法
 
-19.9.3 限时的LOD渲染
+19.9.3 限时的 LOD 渲染
 
 19.10 渲染大型场景
 
@@ -1032,7 +1032,7 @@ CLOD和地貌LOD
 
 21.2.3 立体视觉
 
-21.3 API和硬件
+21.3 API 和硬件
 
 21.3.1 立体渲染
 
@@ -1046,19 +1046,19 @@ CLOD和地貌LOD
 
 #### Chapter 22 Intersection Test Methods 相交测试方法
 
-22.1 GPU加速的拾取
+22.1 GPU 加速的拾取
 
 22.2 定义和工具
 
 22.3 创建包围体
 
-22.3.1创建AABB和kDOP
+22.3.1 创建 AABB 和 kDOP
 
 22.3.2 创建球体
 
 22.3.3 创建凸多面体
 
-22.3.4 创建OBB
+22.3.4 创建 OBB
 
 22.4 几何概率
 
@@ -1070,7 +1070,7 @@ CLOD和地貌LOD
 
 22.6.2 优化解法
 
-22.7 射线/Box相交
+22.7 射线/Box 相交
 
 22.7.1 平板法
 
@@ -1086,7 +1086,7 @@ CLOD和地貌LOD
 
 22.9.1 交叉点测试
 
-22.10 平面/Box相交
+22.10 平面/Box 相交
 
 22.10.1 AABB
 
@@ -1094,19 +1094,19 @@ CLOD和地貌LOD
 
 22.11 三角形/三角形相交
 
-22.12 三角形/Box相交
+22.12 三角形/Box 相交
 
-22.13 BV/BV相交
+22.13 BV/BV 相交
 
-22.13.1球体/球体相交
+22.13.1 球体/球体相交
 
-22.13.2 球体/Box相交
+22.13.2 球体/Box 相交
 
-22.13.3 AABBAABB相交
+22.13.3 AABBAABB 相交
 
-22.13.4 kDOP/kDOP相交
+22.13.4 kDOP/kDOP 相交
 
-22.13.5 OBB/OBB交集
+22.13.5 OBB/OBB 交集
 
 22.14 视锥体相交测试
 
@@ -1114,15 +1114,15 @@ CLOD和地貌LOD
 
 22.14.2 视锥体/球体相交
 
-22.14.3 视锥体/box相交
+22.14.3 视锥体/box 相交
 
 22.15 线/线相交
 
 22.15.1 二维
 
-方法1
+方法 1
 
-方法2
+方法 2
 
 22.15.2 三维
 
@@ -1184,13 +1184,13 @@ CLOD和地貌LOD
 
 25.2 中阶段碰撞检测
 
-25.2.1 BVH构建
+25.2.1 BVH 构建
 
-25.2.2 BVH间的碰撞测试
+25.2.2 BVH 间的碰撞测试
 
-25.2.3 BVH成本函数
+25.2.3 BVH 成本函数
 
-25.2.4 OBB树
+25.2.4 OBB 树
 
 选择包围体
 
@@ -1202,13 +1202,13 @@ CLOD和地貌LOD
 
 25.3 窄阶段碰撞检测
 
-25.3.1 图元vs图元
+25.3.1 图元 vs 图元
 
 25.3.2 距离查询
 
 25.4 射线碰撞检测
 
-25.5 使用BSP树的动态CD
+25.5 使用 BSP 树的动态 CD
 
 25.6 限时碰撞检测
 
@@ -1226,9 +1226,9 @@ CLOD和地貌LOD
 
 25.11 动态相交测试
 
-25.11.1球体/平面
+25.11.1 球体/平面
 
-25.11.2球体/球体
+25.11.2 球体/球体
 
 25.11.3 球体/多边形
 
